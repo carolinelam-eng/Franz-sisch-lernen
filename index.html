@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#E6A800">
+  <meta name="description" content="Französische Vokabeln gemeinsam lernen – mit XP, Lernserie und abwechslungsreichen Übungen.">
+  <title>Soleil – Vokabel Lern Begleiter</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app-main">Zum Inhalt springen</a>
+  <div id="network-status" class="network-status" role="status" aria-live="polite" hidden></div>
+  <div class="app-shell">
+    <main id="app-main" tabindex="-1"></main>
+    <nav class="bottom-nav" aria-label="Hauptnavigation">
+      <button class="nav-item" type="button" data-route="home" aria-label="Start">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></svg><span>Start</span>
+      </button>
+      <button class="nav-item" type="button" data-route="lists" aria-label="Listen">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg><span>Listen</span>
+      </button>
+      <button class="nav-item nav-item-add" type="button" data-route="add" aria-label="Hinzufügen">
+        <span class="add-circle"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg></span><span>Hinzufügen</span>
+      </button>
+      <button class="nav-item" type="button" data-route="class" aria-label="Klasse">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8ZM22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><span>Klasse</span>
+      </button>
+      <button class="nav-item" type="button" data-route="profile" aria-label="Profil">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 21a8 8 0 0 0-16 0M12 13a5 5 0 1 0 0-10 5 5 0 0 0 0 10Z"/></svg><span>Profil</span>
+      </button>
+    </nav>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
