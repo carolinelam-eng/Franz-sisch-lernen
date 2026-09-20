@@ -151,7 +151,7 @@ function homeView() {
         <button class="card card-action list-card" data-route="class"><span><span class="card-title">Diese Woche in deiner Klasse</span><span class="card-copy">Du bist auf Platz ${rank}. Öffne die Rangliste.</span></span><span class="chevron" aria-hidden="true">›</span></button>
       </section>
       <section id="install-section" class="section" hidden>
-        <div class="card install-banner"><img src="./assets/icon.svg" alt=""><div><h2 class="card-title">App installieren</h2><p class="card-copy">Soleil direkt vom Startbildschirm öffnen.</p></div><button class="button" data-action="install">Installieren</button></div>
+        <div class="card install-banner"><img src="./icon.svg" alt=""><div><h2 class="card-title">App installieren</h2><p class="card-copy">Soleil direkt vom Startbildschirm öffnen.</p></div><button class="button" data-action="install">Installieren</button></div>
       </section>
     </div>`;
 }

@@ -36,7 +36,7 @@ npm run check
 ## Bei GitHub hochladen
 
 1. Auf GitHub ein neues, leeres Repository erstellen.
-2. Den Inhalt dieses Ordners in das Repository hochladen. `index.html` muss direkt im Stammverzeichnis liegen.
+2. Den Inhalt dieses Ordners in das Repository hochladen. `index.html`, `app.js`, `data.js`, `learning.js`, `store.js`, `styles.css` und die drei Icon-Dateien müssen direkt im Stammverzeichnis liegen. Die Dateien nicht einzeln aus Unterordnern verschieben.
 3. Als Standardbranch `main` verwenden.
 4. Unter **Settings → Pages → Build and deployment** als Quelle **GitHub Actions** auswählen.
 5. Den Workflow unter **Actions** abwarten. Anschließend zeigt GitHub dort die Internetadresse der App an.

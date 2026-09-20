@@ -1,16 +1,16 @@
-const CACHE_NAME = 'soleil-v1';
+const CACHE_NAME = 'soleil-v2';
 const APP_SHELL = [
   './',
   './index.html',
   './styles.css',
   './manifest.webmanifest',
-  './assets/icon.svg',
-  './assets/icon-192.png',
-  './assets/icon-512.png',
-  './js/app.js',
-  './js/data.js',
-  './js/learning.js',
-  './js/store.js',
+  './icon.svg',
+  './icon-192.png',
+  './icon-512.png',
+  './app.js',
+  './data.js',
+  './learning.js',
+  './store.js',
 ];
 
 self.addEventListener('install', (event) => {
