@@ -8,11 +8,12 @@
   <title>Soleil – Vokabel Lern Begleiter</title>
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <a class="skip-link" href="#app-main">Zum Inhalt springen</a>
   <div id="network-status" class="network-status" role="status" aria-live="polite" hidden></div>
+  <div id="update-status" class="update-status" role="status" aria-live="polite" hidden></div>
+  <div id="sync-status" class="sync-status"></div>
   <div class="app-shell">
     <main id="app-main" tabindex="-1"></main>
     <nav class="bottom-nav" aria-label="Hauptnavigation">
@@ -34,6 +35,6 @@
     </nav>
   </div>
   <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="/src/main.ts"></script>
 </body>
 </html>

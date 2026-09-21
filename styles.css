@@ -32,6 +32,16 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .app-shell { width: min(100%, 760px); min-height: 100dvh; margin: 0 auto; background: var(--paper); box-shadow: 0 0 50px rgba(30, 30, 20, .08); }
 #app-main { min-height: calc(100dvh - 78px); padding-bottom: 104px; }
 .network-status { position: fixed; z-index: 80; top: 10px; left: 50%; transform: translateX(-50%); padding: 8px 14px; border-radius: 999px; background: var(--ink); color: #fff; font-size: .82rem; box-shadow: var(--shadow); }
+.update-status { position: fixed; z-index: 81; top: 10px; left: 50%; transform: translateX(-50%); width: min(calc(100% - 24px), 520px); min-height: 52px; padding: 7px 8px 7px 15px; border-radius: 16px; background: var(--ink); color: #fff; box-shadow: var(--shadow); display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: .84rem; }
+.update-status[hidden] { display: none; }
+.update-button { min-height: 44px; border: 0; border-radius: 12px; padding: 0 13px; background: var(--solar); color: #2c2308; font-weight: 850; cursor: pointer; white-space: nowrap; }
+.sync-status { width: min(100%, 760px); margin: 0 auto; background: var(--paper); }
+.sync-status:empty { display: none; }
+.sync-banner { min-height: 44px; padding: 9px 18px; display: flex; align-items: center; justify-content: center; gap: 10px; border-bottom: 1px solid var(--line); background: #fff9e5; color: #5e501f; font-size: .84rem; text-align: center; }
+.sync-banner--current { min-height: 32px; padding-block: 6px; background: var(--paper); color: var(--muted); font-size: .76rem; }
+.sync-banner--offline, .sync-banner--error { background: var(--canvas); color: var(--ink); }
+.sync-retry { min-width: 44px; min-height: 44px; border: 0; border-radius: 12px; padding: 0 13px; background: var(--solar); color: #2c2308; font-weight: 850; cursor: pointer; }
+.sync-retry:disabled { opacity: .55; cursor: wait; }
 
 .hero { background: linear-gradient(140deg, #e6a800 0%, #ffd767 100%); padding: calc(28px + env(safe-area-inset-top)) 24px 30px; border-radius: 0 0 32px 32px; }
 .eyebrow { margin: 0 0 6px; font-size: .78rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; color: #725400; }

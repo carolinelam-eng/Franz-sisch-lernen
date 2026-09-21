@@ -1,63 +1,67 @@
 # Soleil – Vokabel Lern Begleiter
 
-Eine mobile, installierbare Lern-App für französische Vokabeln. Der Prototyp funktioniert ohne Backend und speichert alle eigenen Listen sowie Lernfortschritte lokal auf dem verwendeten Gerät.
+Soleil ist eine mobile, installierbare Lern-App für französische Vokabeln. Eigene Listen, Lernfortschritt und bereits veröffentlichte Klassenlisten werden auf dem Gerät in IndexedDB gespeichert und bleiben offline verfügbar.
 
-## Enthaltene Funktionen
+## Aktueller Funktionsumfang
 
 - Französisch → Deutsch, Deutsch → Französisch und gemischte Abfrage
-- Schreibmodus, Multiple Choice, Hörmodus und gemischte Lernrunde
-- eigene Vokabellisten und Beispielsätze
-- XP, Tagesziel, Lernserie und getrennte Fehlerwerte je Sprachrichtung
-- simulierte geschlossene Klassenrangliste und gemeinsames Wochenziel
-- Demo-Scanner mit überprüfbarem Beispielimport
-- Offline-Nutzung und Installation auf dem Smartphone
+- Schreiben, Multiple Choice, Hören und gemischte Lernrunden
+- eigene Vokabellisten, Beispielsätze, XP, Tagesziel und Lernserie
+- ein gemeinsamer Sammlungslink für alle Geräte einer Lerngruppe
+- automatische Aktualisierung veröffentlichter Listen beim Start, bei Rückkehr zur App und nach Wiederherstellung der Verbindung
+- installierbare Progressive Web App mit Offline-App-Shell
 
-## Wichtiger Hinweis zum Prototyp
+Klassenkonto, echte Rangliste, Anmeldung, OCR-Scanner und Veröffentlichung durch eine berechtigte Person gehören noch nicht zu dieser Ausbaustufe. Der sichtbare Klassenbereich verwendet weiterhin Beispieldaten.
 
-Anmeldung, Scanner, Einladungscode, Rangliste und Teilen sind als Vorschau umgesetzt. Es werden noch keine Daten zwischen verschiedenen Geräten synchronisiert. Eigene Vokabeln und Fortschritte liegen ausschließlich im Browser des jeweiligen Geräts.
+## Gemeinsamen Sammlungslink verwenden
 
-## Lokal öffnen
+Alle Kinder können denselben Link öffnen:
 
-Die App benötigt wegen des Service Workers einen lokalen Webserver:
-
-```bash
-python3 -m http.server 8080
+```text
+https://DEIN-NAME.github.io/DEIN-REPOSITORY/?collection=SAMMLUNGSSCHLUESSEL
 ```
 
-Danach `http://localhost:8080` im Browser öffnen.
+Der Link muss auf jedem Gerät nur einmal geöffnet werden. Nach erfolgreicher Verbindung entfernt die App den Schlüssel aus der sichtbaren Browseradresse und merkt sich die Sammlung lokal. Neue oder geänderte veröffentlichte Listen werden danach beim App-Start, beim Zurückkehren in die App und nach erneuter Internetverbindung geprüft. Bereits geladene Listen und der persönliche Lernfortschritt funktionieren offline.
 
-Tests:
+Ein geschlossenes oder vom Betriebssystem angehaltenes Gerät kann Änderungen nicht sofort im Hintergrund empfangen. Die Aktualisierung erfolgt beim nächsten Öffnen beziehungsweise sobald die App wieder online und aktiv ist.
+
+## Lokal entwickeln und prüfen
+
+Voraussetzung ist Node.js 22.
+
+```bash
+npm ci
+npm run dev
+```
+
+Vollständige Prüfung:
 
 ```bash
 npm test
+npm run test:coverage
 npm run check
+npm run build
+npm run preview
 ```
 
-## Bei GitHub hochladen
+Die lokale Adresse zeigt Vite im Terminal an. `npm run preview` dient zur Kontrolle der gebauten Produktionsversion einschließlich Service Worker.
 
-1. Auf GitHub ein neues, leeres Repository erstellen.
-2. Den Inhalt dieses Ordners in das Repository hochladen. `index.html`, `app.js`, `data.js`, `learning.js`, `store.js`, `styles.css` und die drei Icon-Dateien müssen direkt im Stammverzeichnis liegen. Die Dateien nicht einzeln aus Unterordnern verschieben.
-3. Als Standardbranch `main` verwenden.
-4. Unter **Settings → Pages → Build and deployment** als Quelle **GitHub Actions** auswählen.
-5. Den Workflow unter **Actions** abwarten. Anschließend zeigt GitHub dort die Internetadresse der App an.
+## GitHub Pages einrichten
 
-Alternativ per Git:
+1. Den Inhalt dieses Ordners in den `main`-Branch des GitHub-Repositories hochladen.
+2. Unter **Settings → Pages → Build and deployment** die Quelle **GitHub Actions** auswählen.
+3. Unter **Settings → Secrets and variables → Actions** anlegen:
+   - Repository-Variable `VITE_SUPABASE_URL`
+   - Repository-Secret `VITE_SUPABASE_ANON_KEY`
+4. Den Workflow **GitHub Pages veröffentlichen** unter **Actions** abwarten.
+5. Die dort angezeigte Pages-Adresse öffnen.
 
-```bash
-git init
-git add .
-git commit -m "Initiale Soleil App"
-git branch -M main
-git remote add origin https://github.com/DEIN-NAME/DEIN-REPOSITORY.git
-git push -u origin main
-```
+Der Workflow installiert reproduzierbar mit `npm ci`, führt Tests und TypeScript-Prüfung aus, baut die App und veröffentlicht ausschließlich den Ordner `dist`. Ein Supabase-Service-Role-Schlüssel darf weder in GitHub Pages noch in Variablen des Browser-Builds eingetragen werden.
 
-## Auf dem iPhone installieren
+## Auf dem Smartphone installieren
 
-1. Die GitHub-Pages-Adresse in Safari öffnen.
-2. **Teilen** wählen.
-3. **Zum Home-Bildschirm** auswählen.
+Auf dem iPhone die Pages-Adresse in Safari öffnen, **Teilen** und danach **Zum Home-Bildschirm** wählen. Auf Android kann die Installation über das Browsermenü oder den angezeigten Installationshinweis erfolgen.
 
-## Datenschutz
+## Datenschutz und Sicherheit
 
-Dieser lokale Prototyp benötigt kein Benutzerkonto und sendet keine Vokabel- oder Lerndaten an einen Server. Vor einem echten Einsatz mit Schülerkonten, geräteübergreifender Rangliste oder Online-Klassenräumen ist ein eigenes Datenschutz- und Berechtigungskonzept erforderlich.
+Persönlicher Lernfortschritt bleibt lokal auf dem jeweiligen Gerät. Der Browser erhält ausschließlich den öffentlichen Supabase-Anon-Key und ruft eine eingeschränkte, nur lesende Funktion für veröffentlichte Inhalte auf. Vor Schülerkonten, einer geräteübergreifenden Rangliste oder echten Klassenräumen sind ein abgestimmtes Datenschutz-, Rollen- und Berechtigungskonzept sowie die erforderlichen Einwilligungen nötig.
