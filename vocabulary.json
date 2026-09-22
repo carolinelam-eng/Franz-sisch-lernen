@@ -1,0 +1,112 @@
+{
+  "collectionId": "3f98f366-7a51-4b57-b268-65feae9e9101",
+  "version": 1,
+  "publishedAt": "2026-09-22T20:00:00.000Z",
+  "lists": [
+    {
+      "id": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+      "name": "Schule & Alltag",
+      "description": "Grundwortschatz für Unterricht und Alltag",
+      "version": 1,
+      "updatedAt": "2026-09-22T20:00:00.000Z",
+      "items": [
+        {
+          "id": "0d9b9222-87da-45e6-86b0-055fac4644a1",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "le livre",
+          "german": "das Buch",
+          "example": "Je lis un livre.",
+          "imageUrl": null
+        },
+        {
+          "id": "e9b5dc4c-cb64-4b3a-bb67-3aec4ff15fb3",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "la maison",
+          "german": "das Haus",
+          "example": "Voici la maison.",
+          "imageUrl": null
+        },
+        {
+          "id": "a7599c7f-4e27-46ad-91c8-1901c128bfb6",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "l'école",
+          "german": "die Schule",
+          "example": "L'école commence à huit heures.",
+          "imageUrl": null
+        },
+        {
+          "id": "6f707f5d-c53b-424d-8d75-58831998204f",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "apprendre",
+          "german": "lernen",
+          "example": "J'aime apprendre le français.",
+          "imageUrl": null
+        },
+        {
+          "id": "a5c9110e-cf08-47fe-a176-56697161a678",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "écrire",
+          "german": "schreiben",
+          "example": "J'écris une phrase.",
+          "imageUrl": null
+        },
+        {
+          "id": "e878116c-9bc5-426b-8c0a-c77695cda45f",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "écouter",
+          "german": "zuhören",
+          "example": "J'écoute le professeur.",
+          "imageUrl": null
+        },
+        {
+          "id": "7cdfeacf-8d8e-4c9a-b87b-403f9cfc48b4",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "la question",
+          "german": "die Frage",
+          "example": "J'ai une question.",
+          "imageUrl": null
+        },
+        {
+          "id": "ba1e45ba-fcd1-4a2b-87c0-a7c1aa8ac50c",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "la réponse",
+          "german": "die Antwort",
+          "example": "Je connais la réponse.",
+          "imageUrl": null
+        },
+        {
+          "id": "3090d38b-21d6-4432-93aa-c2bc9f315c97",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "rapide",
+          "german": "schnell",
+          "example": "Il parle très vite.",
+          "imageUrl": null
+        },
+        {
+          "id": "f39e4720-6583-451e-9eb2-c7a141d15ea4",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "ensemble",
+          "german": "zusammen",
+          "example": "Nous apprenons ensemble.",
+          "imageUrl": null
+        },
+        {
+          "id": "8b7077a7-eb41-40d8-b83d-fabf5d958e86",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "comprendre",
+          "german": "verstehen",
+          "example": "Je comprends le texte.",
+          "imageUrl": null
+        },
+        {
+          "id": "6b9304ad-f95a-481e-8009-e4ccfa872626",
+          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
+          "french": "répéter",
+          "german": "wiederholen",
+          "example": "Peux-tu répéter ?",
+          "imageUrl": null
+        }
+      ]
+    }
+  ]
+}
