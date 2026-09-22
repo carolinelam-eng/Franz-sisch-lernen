@@ -1,7 +1,7 @@
 {
   "name": "Soleil – Vokabel Lern Begleiter",
   "short_name": "Soleil",
-  "description": "Französische Vokabeln mit XP, Lernserie und abwechslungsreichen Übungen lernen.",
+  "description": "Französische Vokabeln mit eigenen und geteilten Listen lernen.",
   "lang": "de-DE",
   "start_url": "./",
   "scope": "./",
