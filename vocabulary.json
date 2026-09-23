@@ -1,7 +1,7 @@
 {
   "collectionId": "3f98f366-7a51-4b57-b268-65feae9e9101",
-  "version": 2,
-  "publishedAt": "2026-09-23T04:26:09.000Z",
+  "version": 3,
+  "publishedAt": "2026-09-23T06:56:59Z",
   "lists": [
     {
       "id": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
@@ -10,16 +10,86 @@
       "version": 1,
       "updatedAt": "2026-09-23T04:26:09.000Z",
       "items": [
-        { "id": "75b2e318-c188-48c2-bcc5-06d4ac84d51f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Bonjour!", "german": "Guten Tag!; Guten Morgen!", "example": "Bonjour, Paris!", "imageUrl": null },
-        { "id": "7fad057f-69cc-4091-b8c8-a4b3b6f27ccb", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "et", "german": "und", "example": "Bonjour et bienvenue!", "imageUrl": null },
-        { "id": "22f17f9d-98e1-46fb-bd0d-884024a55d7f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "à Paris", "german": "in Paris", "example": "J’habite à Paris.", "imageUrl": null },
-        { "id": "22f70908-de60-446f-b3c9-a3404638ae8f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Bienvenue (à …)!", "german": "Willkommen (in …)!", "example": "Bonjour et bienvenue!", "imageUrl": null },
-        { "id": "2173c266-3445-41d7-ae92-c9672a9ae848", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Au revoir!", "german": "Auf Wiedersehen!", "example": "", "imageUrl": null },
-        { "id": "9413e6d9-b825-4d88-a9fb-4d746f35dbde", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "je m’appelle", "german": "ich heiße", "example": "Je m’appelle Ben.", "imageUrl": null },
-        { "id": "3ef0adc0-6419-4db2-8db3-a7794adac659", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "j’habite à", "german": "ich wohne in", "example": "J’habite à Paris.", "imageUrl": null },
-        { "id": "a4e93c62-cea1-4010-bdfa-cb4995531bfb", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Salut!", "german": "Hallo!; Tschüs!", "example": "Salut Elisa.", "imageUrl": null },
-        { "id": "8d1df253-7857-494f-b4d5-1bae190b0af5", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "aussi", "german": "auch", "example": "Je m’appelle aussi Elisa.", "imageUrl": null },
-        { "id": "9985ba3b-07e8-435f-ae17-a310ab7def76", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Et toi?", "german": "Und du?", "example": "Je m’appelle Elisa. Et toi?", "imageUrl": null }
+        {
+          "id": "75b2e318-c188-48c2-bcc5-06d4ac84d51f",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "Bonjour!",
+          "german": "Guten Tag!; Guten Morgen!",
+          "example": "Bonjour, Paris!",
+          "imageUrl": null
+        },
+        {
+          "id": "7fad057f-69cc-4091-b8c8-a4b3b6f27ccb",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "et",
+          "german": "und",
+          "example": "Bonjour et bienvenue!",
+          "imageUrl": null
+        },
+        {
+          "id": "22f17f9d-98e1-46fb-bd0d-884024a55d7f",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "à Paris",
+          "german": "in Paris",
+          "example": "J’habite à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "22f70908-de60-446f-b3c9-a3404638ae8f",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "Bienvenue (à …)!",
+          "german": "Willkommen (in …)!",
+          "example": "Bonjour et bienvenue!",
+          "imageUrl": null
+        },
+        {
+          "id": "2173c266-3445-41d7-ae92-c9672a9ae848",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "Au revoir!",
+          "german": "Auf Wiedersehen!",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "9413e6d9-b825-4d88-a9fb-4d746f35dbde",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "je m’appelle",
+          "german": "ich heiße",
+          "example": "Je m’appelle Ben.",
+          "imageUrl": null
+        },
+        {
+          "id": "3ef0adc0-6419-4db2-8db3-a7794adac659",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "j’habite à",
+          "german": "ich wohne in",
+          "example": "J’habite à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "a4e93c62-cea1-4010-bdfa-cb4995531bfb",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "Salut!",
+          "german": "Hallo!; Tschüs!",
+          "example": "Salut Elisa.",
+          "imageUrl": null
+        },
+        {
+          "id": "8d1df253-7857-494f-b4d5-1bae190b0af5",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "aussi",
+          "german": "auch",
+          "example": "Je m’appelle aussi Elisa.",
+          "imageUrl": null
+        },
+        {
+          "id": "9985ba3b-07e8-435f-ae17-a310ab7def76",
+          "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+          "french": "Et toi?",
+          "german": "Und du?",
+          "example": "Je m’appelle Elisa. Et toi?",
+          "imageUrl": null
+        }
       ]
     },
     {
@@ -29,12 +99,54 @@
       "version": 1,
       "updatedAt": "2026-09-23T04:26:09.000Z",
       "items": [
-        { "id": "0899e4f2-2490-4c02-95b1-db4e6521b3e2", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "madame (Mme)", "german": "Frau … (Anrede)", "example": "Bonjour, madame.", "imageUrl": null },
-        { "id": "4e40844e-a47b-4e5a-8816-302cfc699ad9", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "monsieur (M.)", "german": "Herr … (Anrede)", "example": "", "imageUrl": null },
-        { "id": "0b3ea08c-596e-4261-a365-376f260bbdcf", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Ça va?", "german": "Wie geht’s?", "example": "", "imageUrl": null },
-        { "id": "592b6909-ebb3-4bf9-83a9-069d61264fc6", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Bisous!", "german": "Küsschen!", "example": "", "imageUrl": null },
-        { "id": "43f08e30-8498-49da-b426-4e52801c0039", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Ça va.", "german": "Es geht mir gut.", "example": "Ça va? – Ça va.", "imageUrl": null },
-        { "id": "558340f8-1685-4d84-ad8a-d1b455c62676", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Merci.", "german": "Danke.", "example": "Ça va? – Ça va, merci.", "imageUrl": null }
+        {
+          "id": "0899e4f2-2490-4c02-95b1-db4e6521b3e2",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "madame (Mme)",
+          "german": "Frau … (Anrede)",
+          "example": "Bonjour, madame.",
+          "imageUrl": null
+        },
+        {
+          "id": "4e40844e-a47b-4e5a-8816-302cfc699ad9",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "monsieur (M.)",
+          "german": "Herr … (Anrede)",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "0b3ea08c-596e-4261-a365-376f260bbdcf",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "Ça va?",
+          "german": "Wie geht’s?",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "592b6909-ebb3-4bf9-83a9-069d61264fc6",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "Bisous!",
+          "german": "Küsschen!",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "43f08e30-8498-49da-b426-4e52801c0039",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "Ça va.",
+          "german": "Es geht mir gut.",
+          "example": "Ça va? – Ça va.",
+          "imageUrl": null
+        },
+        {
+          "id": "558340f8-1685-4d84-ad8a-d1b455c62676",
+          "listId": "0461c548-e109-4216-b59f-02a46ce15968",
+          "french": "Merci.",
+          "german": "Danke.",
+          "example": "Ça va? – Ça va, merci.",
+          "imageUrl": null
+        }
       ]
     },
     {
@@ -44,12 +156,336 @@
       "version": 1,
       "updatedAt": "2026-09-23T04:26:09.000Z",
       "items": [
-        { "id": "4b0ab285-118a-49c0-8894-8dcb2a2c7e5f", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Mince!", "german": "Mist!", "example": "", "imageUrl": null },
-        { "id": "5f1d441a-a71b-488e-b446-aeeced365f8f", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "le portemonnaie", "german": "der Geldbeutel", "example": "", "imageUrl": null },
-        { "id": "4f482446-ad34-411a-9f59-1863d596531d", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Tu t’appelles comment?", "german": "Wie heißt du?", "example": "Tu t’appelles comment? – Je m’appelle Tim.", "imageUrl": null },
-        { "id": "3bd5d53e-2ef2-4da8-a79a-da80d2719c11", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Tu habites où?", "german": "Wo wohnst du?", "example": "", "imageUrl": null },
-        { "id": "532f2965-68a8-4663-b906-fda44a38883c", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "J’habite rue …", "german": "Ich wohne in der … Straße.", "example": "J’habite rue Truffaut.", "imageUrl": null },
-        { "id": "9e506ee6-590a-40c6-91bd-70abb701ad6b", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Coucou!", "german": "Hallo!", "example": "", "imageUrl": null }
+        {
+          "id": "4b0ab285-118a-49c0-8894-8dcb2a2c7e5f",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "Mince!",
+          "german": "Mist!",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "5f1d441a-a71b-488e-b446-aeeced365f8f",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "le portemonnaie",
+          "german": "der Geldbeutel",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "4f482446-ad34-411a-9f59-1863d596531d",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "Tu t’appelles comment?",
+          "german": "Wie heißt du?",
+          "example": "Tu t’appelles comment? – Je m’appelle Tim.",
+          "imageUrl": null
+        },
+        {
+          "id": "3bd5d53e-2ef2-4da8-a79a-da80d2719c11",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "Tu habites où?",
+          "german": "Wo wohnst du?",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "532f2965-68a8-4663-b906-fda44a38883c",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "J’habite rue …",
+          "german": "Ich wohne in der … Straße.",
+          "example": "J’habite rue Truffaut.",
+          "imageUrl": null
+        },
+        {
+          "id": "9e506ee6-590a-40c6-91bd-70abb701ad6b",
+          "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+          "french": "Coucou!",
+          "german": "Hallo!",
+          "example": "",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+      "name": "Lektion 1 Bonjour, Paris! – Étape C",
+      "description": "Lektion 1: Jetzt, Wohnort und Viertel",
+      "version": 1,
+      "updatedAt": "2026-09-23T06:56:59Z",
+      "items": [
+        {
+          "id": "e28a00b7-efab-5ff9-aa3d-40f505ef6ea1",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "maintenant",
+          "german": "jetzt",
+          "example": "Et maintenant?",
+          "imageUrl": null
+        },
+        {
+          "id": "fdafe51f-6e24-588a-a54e-deecc23c2984",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "OK",
+          "german": "okay",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "70b4ae84-9d34-53e5-9f39-43d9d5f1cd20",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "super (fam.)",
+          "german": "super (ugs.); toll (ugs.)",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "a28f9097-e3e9-5c32-932a-cd6680a98529",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "oui",
+          "german": "ja",
+          "example": "Tu t’appelles Léo? – Oui.",
+          "imageUrl": null
+        },
+        {
+          "id": "cebc28f3-b6a8-5620-a7cd-e109219f0490",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "Tiens!",
+          "german": "Hier, bitte!",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "92b168a4-cdce-5b81-b5d2-d7be4c3e7b50",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "Tu habites ici?",
+          "german": "Wohnst du hier?",
+          "example": "Tu habites ici? – Oui, j’habite rue Truffaut.",
+          "imageUrl": null
+        },
+        {
+          "id": "6eedd2c6-86d5-5f73-a6b1-949b4bcaf13d",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "ici",
+          "german": "hier",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "67427e70-e237-5989-8349-40d7d9da9da0",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "dans le quartier",
+          "german": "im Viertel",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "4c81fadb-27c4-57d8-97b1-ef948d905a46",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "dans",
+          "german": "in; im",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "5dc7b840-d7c7-53d0-afd7-44efa153d10e",
+          "listId": "012520a7-22d1-5c78-8b59-6fe8a06ec94a",
+          "french": "alors",
+          "german": "nun; jetzt; dann",
+          "example": "Alors, au revoir, Léo!",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+      "name": "Mag 1 – 1, 2, 3, Paris",
+      "description": "Mag 1: Redewendungen und Zahlen von 1 bis 20",
+      "version": 1,
+      "updatedAt": "2026-09-23T06:56:59Z",
+      "items": [
+        {
+          "id": "0fd778eb-3283-558a-bdd4-8ac93c8378af",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "Regarde.",
+          "german": "Schau mal.",
+          "example": "Regarde, c’est Léo!",
+          "imageUrl": null
+        },
+        {
+          "id": "111276d1-a5a3-5b5c-86dc-bf02c4a12c01",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "c’est …",
+          "german": "das ist …",
+          "example": "Regarde, c’est Léo!",
+          "imageUrl": null
+        },
+        {
+          "id": "2250a483-1520-5e19-b4db-9fc4a7f3cc55",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "À toi!",
+          "german": "Du bist dran!",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "dadd4570-45e3-5fb6-b86e-27987031138b",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "un",
+          "german": "eins",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "cf196aa2-63b2-5e3f-9865-20407faf106f",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "deux",
+          "german": "zwei",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "db61a2c9-a488-50fd-bbed-815a0d775b48",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "trois",
+          "german": "drei",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "5e178e48-7371-5f40-9822-2faa5f34eff2",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "quatre",
+          "german": "vier",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "f9b72a22-52a7-5c6b-8a38-a955b9bdf465",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "cinq",
+          "german": "fünf",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "6925ab14-627d-516b-8884-21ac66c7e79a",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "six",
+          "german": "sechs",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "c9443582-5045-5a9d-91a0-584e6f68d2be",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "sept",
+          "german": "sieben",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "61a2d6fd-471d-5970-9709-f0e34222f444",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "huit",
+          "german": "acht",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "d7783d78-48e9-590e-90fc-368060841c2a",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "neuf",
+          "german": "neun",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "e7a02b4e-c4a6-599d-9f21-3cdde0412718",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "dix",
+          "german": "zehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "98792de5-3e9f-5a62-93d6-bb8f9465c54d",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "onze",
+          "german": "elf",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "832a1cab-f7f6-50cb-95ad-5bb836bb5027",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "douze",
+          "german": "zwölf",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "8ce65020-52c2-586f-b15f-c178a3c2cc67",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "treize",
+          "german": "dreizehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "07c0adeb-6b0c-519f-8a4f-f8f45d3ee830",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "quatorze",
+          "german": "vierzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "a064bb1f-0f6e-5d23-9c12-6cceec9ca88c",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "quinze",
+          "german": "fünfzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "2fd2cbdb-4e69-5a3e-8618-d630b5acbfcb",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "seize",
+          "german": "sechzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "81bfa13b-2e94-5d23-8b45-7a9d65197c1f",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "dix-sept",
+          "german": "siebzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "9cd48654-aa9e-541b-9e33-5723cc13d4ad",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "dix-huit",
+          "german": "achtzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "c6efbf2b-21f6-5754-b0a6-61ef1f0538b8",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "dix-neuf",
+          "german": "neunzehn",
+          "example": "",
+          "imageUrl": null
+        },
+        {
+          "id": "587d22bd-c0d4-5a4a-9981-955995e8dc2c",
+          "listId": "fdf8b33d-2122-5a60-94ea-855a835d7ea4",
+          "french": "vingt",
+          "german": "zwanzig",
+          "example": "",
+          "imageUrl": null
+        }
       ]
     }
   ]
