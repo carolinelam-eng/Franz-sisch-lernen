@@ -1,111 +1,55 @@
 {
   "collectionId": "3f98f366-7a51-4b57-b268-65feae9e9101",
-  "version": 1,
-  "publishedAt": "2026-09-22T20:00:00.000Z",
+  "version": 2,
+  "publishedAt": "2026-09-23T04:26:09.000Z",
   "lists": [
     {
-      "id": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-      "name": "Schule & Alltag",
-      "description": "Grundwortschatz für Unterricht und Alltag",
+      "id": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
+      "name": "Lektion 1 Bonjour, Paris! – Départ",
+      "description": "Lektion 1: Begrüßung und Vorstellung",
       "version": 1,
-      "updatedAt": "2026-09-22T20:00:00.000Z",
+      "updatedAt": "2026-09-23T04:26:09.000Z",
       "items": [
-        {
-          "id": "0d9b9222-87da-45e6-86b0-055fac4644a1",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "le livre",
-          "german": "das Buch",
-          "example": "Je lis un livre.",
-          "imageUrl": null
-        },
-        {
-          "id": "e9b5dc4c-cb64-4b3a-bb67-3aec4ff15fb3",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "la maison",
-          "german": "das Haus",
-          "example": "Voici la maison.",
-          "imageUrl": null
-        },
-        {
-          "id": "a7599c7f-4e27-46ad-91c8-1901c128bfb6",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "l'école",
-          "german": "die Schule",
-          "example": "L'école commence à huit heures.",
-          "imageUrl": null
-        },
-        {
-          "id": "6f707f5d-c53b-424d-8d75-58831998204f",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "apprendre",
-          "german": "lernen",
-          "example": "J'aime apprendre le français.",
-          "imageUrl": null
-        },
-        {
-          "id": "a5c9110e-cf08-47fe-a176-56697161a678",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "écrire",
-          "german": "schreiben",
-          "example": "J'écris une phrase.",
-          "imageUrl": null
-        },
-        {
-          "id": "e878116c-9bc5-426b-8c0a-c77695cda45f",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "écouter",
-          "german": "zuhören",
-          "example": "J'écoute le professeur.",
-          "imageUrl": null
-        },
-        {
-          "id": "7cdfeacf-8d8e-4c9a-b87b-403f9cfc48b4",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "la question",
-          "german": "die Frage",
-          "example": "J'ai une question.",
-          "imageUrl": null
-        },
-        {
-          "id": "ba1e45ba-fcd1-4a2b-87c0-a7c1aa8ac50c",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "la réponse",
-          "german": "die Antwort",
-          "example": "Je connais la réponse.",
-          "imageUrl": null
-        },
-        {
-          "id": "3090d38b-21d6-4432-93aa-c2bc9f315c97",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "rapide",
-          "german": "schnell",
-          "example": "Il parle très vite.",
-          "imageUrl": null
-        },
-        {
-          "id": "f39e4720-6583-451e-9eb2-c7a141d15ea4",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "ensemble",
-          "german": "zusammen",
-          "example": "Nous apprenons ensemble.",
-          "imageUrl": null
-        },
-        {
-          "id": "8b7077a7-eb41-40d8-b83d-fabf5d958e86",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "comprendre",
-          "german": "verstehen",
-          "example": "Je comprends le texte.",
-          "imageUrl": null
-        },
-        {
-          "id": "6b9304ad-f95a-481e-8009-e4ccfa872626",
-          "listId": "2fd7a17e-1c45-40cc-b7a2-7c31c5f747b1",
-          "french": "répéter",
-          "german": "wiederholen",
-          "example": "Peux-tu répéter ?",
-          "imageUrl": null
-        }
+        { "id": "75b2e318-c188-48c2-bcc5-06d4ac84d51f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Bonjour!", "german": "Guten Tag!; Guten Morgen!", "example": "Bonjour, Paris!", "imageUrl": null },
+        { "id": "7fad057f-69cc-4091-b8c8-a4b3b6f27ccb", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "et", "german": "und", "example": "Bonjour et bienvenue!", "imageUrl": null },
+        { "id": "22f17f9d-98e1-46fb-bd0d-884024a55d7f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "à Paris", "german": "in Paris", "example": "J’habite à Paris.", "imageUrl": null },
+        { "id": "22f70908-de60-446f-b3c9-a3404638ae8f", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Bienvenue (à …)!", "german": "Willkommen (in …)!", "example": "Bonjour et bienvenue!", "imageUrl": null },
+        { "id": "2173c266-3445-41d7-ae92-c9672a9ae848", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Au revoir!", "german": "Auf Wiedersehen!", "example": "", "imageUrl": null },
+        { "id": "9413e6d9-b825-4d88-a9fb-4d746f35dbde", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "je m’appelle", "german": "ich heiße", "example": "Je m’appelle Ben.", "imageUrl": null },
+        { "id": "3ef0adc0-6419-4db2-8db3-a7794adac659", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "j’habite à", "german": "ich wohne in", "example": "J’habite à Paris.", "imageUrl": null },
+        { "id": "a4e93c62-cea1-4010-bdfa-cb4995531bfb", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Salut!", "german": "Hallo!; Tschüs!", "example": "Salut Elisa.", "imageUrl": null },
+        { "id": "8d1df253-7857-494f-b4d5-1bae190b0af5", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "aussi", "german": "auch", "example": "Je m’appelle aussi Elisa.", "imageUrl": null },
+        { "id": "9985ba3b-07e8-435f-ae17-a310ab7def76", "listId": "7ba35b58-e414-4d00-bfe8-9380a83c4e74", "french": "Et toi?", "german": "Und du?", "example": "Je m’appelle Elisa. Et toi?", "imageUrl": null }
+      ]
+    },
+    {
+      "id": "0461c548-e109-4216-b59f-02a46ce15968",
+      "name": "Lektion 1 Bonjour, Paris! – Étape A",
+      "description": "Lektion 1: Anrede und Begrüßung",
+      "version": 1,
+      "updatedAt": "2026-09-23T04:26:09.000Z",
+      "items": [
+        { "id": "0899e4f2-2490-4c02-95b1-db4e6521b3e2", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "madame (Mme)", "german": "Frau … (Anrede)", "example": "Bonjour, madame.", "imageUrl": null },
+        { "id": "4e40844e-a47b-4e5a-8816-302cfc699ad9", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "monsieur (M.)", "german": "Herr … (Anrede)", "example": "", "imageUrl": null },
+        { "id": "0b3ea08c-596e-4261-a365-376f260bbdcf", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Ça va?", "german": "Wie geht’s?", "example": "", "imageUrl": null },
+        { "id": "592b6909-ebb3-4bf9-83a9-069d61264fc6", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Bisous!", "german": "Küsschen!", "example": "", "imageUrl": null },
+        { "id": "43f08e30-8498-49da-b426-4e52801c0039", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Ça va.", "german": "Es geht mir gut.", "example": "Ça va? – Ça va.", "imageUrl": null },
+        { "id": "558340f8-1685-4d84-ad8a-d1b455c62676", "listId": "0461c548-e109-4216-b59f-02a46ce15968", "french": "Merci.", "german": "Danke.", "example": "Ça va? – Ça va, merci.", "imageUrl": null }
+      ]
+    },
+    {
+      "id": "ee6a070b-6948-41c2-abc2-7872fbc000e5",
+      "name": "Lektion 1 Bonjour, Paris! – Étape B",
+      "description": "Lektion 1: Fragen und Wohnort",
+      "version": 1,
+      "updatedAt": "2026-09-23T04:26:09.000Z",
+      "items": [
+        { "id": "4b0ab285-118a-49c0-8894-8dcb2a2c7e5f", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Mince!", "german": "Mist!", "example": "", "imageUrl": null },
+        { "id": "5f1d441a-a71b-488e-b446-aeeced365f8f", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "le portemonnaie", "german": "der Geldbeutel", "example": "", "imageUrl": null },
+        { "id": "4f482446-ad34-411a-9f59-1863d596531d", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Tu t’appelles comment?", "german": "Wie heißt du?", "example": "Tu t’appelles comment? – Je m’appelle Tim.", "imageUrl": null },
+        { "id": "3bd5d53e-2ef2-4da8-a79a-da80d2719c11", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Tu habites où?", "german": "Wo wohnst du?", "example": "", "imageUrl": null },
+        { "id": "532f2965-68a8-4663-b906-fda44a38883c", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "J’habite rue …", "german": "Ich wohne in der … Straße.", "example": "J’habite rue Truffaut.", "imageUrl": null },
+        { "id": "9e506ee6-590a-40c6-91bd-70abb701ad6b", "listId": "ee6a070b-6948-41c2-abc2-7872fbc000e5", "french": "Coucou!", "german": "Hallo!", "example": "", "imageUrl": null }
       ]
     }
   ]
