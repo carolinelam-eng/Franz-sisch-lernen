@@ -1,7 +1,7 @@
 {
   "collectionId": "3f98f366-7a51-4b57-b268-65feae9e9101",
-  "version": 3,
-  "publishedAt": "2026-09-23T06:56:59Z",
+  "version": 4,
+  "publishedAt": "2026-09-23T09:30:00Z",
   "lists": [
     {
       "id": "7ba35b58-e414-4d00-bfe8-9380a83c4e74",
@@ -484,6 +484,175 @@
           "french": "vingt",
           "german": "zwanzig",
           "example": "",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "id": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+      "name": "Être und avoir – Präsens",
+      "description": "Sein und haben: Grundformen und alle Personen im Präsens",
+      "version": 1,
+      "updatedAt": "2026-09-23T09:30:00Z",
+      "items": [
+        {
+          "id": "2c30898f-ca4d-5d88-b22a-aad63ff20fda",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "être",
+          "german": "sein",
+          "example": "Je suis à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "9df82580-bfcc-5c1c-bfe1-92025025f332",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "je suis",
+          "german": "ich bin",
+          "example": "Je suis ici.",
+          "imageUrl": null
+        },
+        {
+          "id": "4d83b346-3793-570e-9bde-564d64eaabd2",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "tu es",
+          "german": "du bist",
+          "example": "Tu es ici.",
+          "imageUrl": null
+        },
+        {
+          "id": "6467f59d-c9ed-595c-8970-7ac791dc33e0",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "il est",
+          "german": "er ist",
+          "example": "Il est à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "8c0a506d-adaf-51c3-95a3-77bc61ecd004",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "elle est",
+          "german": "sie ist",
+          "example": "Elle est à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "48a2f3e3-88e7-5297-9512-f9b875db1b96",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "on est",
+          "german": "man ist",
+          "example": "On est à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "7d404586-1962-5352-a102-6d07cd68706b",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "nous sommes",
+          "german": "wir sind",
+          "example": "Nous sommes ici.",
+          "imageUrl": null
+        },
+        {
+          "id": "4eb14e54-af06-5039-8b43-856c9ecef99f",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "vous êtes",
+          "german": "ihr seid; Sie sind",
+          "example": "Vous êtes à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "1217aa6a-2454-5839-aef6-51fef5c70184",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "ils sont",
+          "german": "sie sind (männlich/gemischt)",
+          "example": "Ils sont à Paris.",
+          "imageUrl": null
+        },
+        {
+          "id": "a33b5eb8-3810-511e-b002-b333d85435ed",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "elles sont",
+          "german": "sie sind (weiblich)",
+          "example": "Elles sont ici.",
+          "imageUrl": null
+        },
+        {
+          "id": "14c8e78b-5538-5dda-8734-d164e1330cf7",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "avoir",
+          "german": "haben",
+          "example": "J’ai un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "f30c310e-2e0c-5669-97c8-3be3970b1ab7",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "j’ai",
+          "german": "ich habe",
+          "example": "J’ai un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "1e477ae5-a589-5702-80ae-4c3a35f96f7f",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "tu as",
+          "german": "du hast",
+          "example": "Tu as un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "5f05e9d2-da44-55c6-b851-e6a43732e494",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "il a",
+          "german": "er hat",
+          "example": "Il a un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "b05a3c3f-e99b-5f48-b3ca-5477c971e95d",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "elle a",
+          "german": "sie hat",
+          "example": "Elle a un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "7ba6a1a4-96c7-54a1-8364-405db71af371",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "on a",
+          "german": "man hat",
+          "example": "On a un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "f73b7f98-7437-5f03-86ec-2916b8a0bd7f",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "nous avons",
+          "german": "wir haben",
+          "example": "Nous avons un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "2c2f2950-a44b-53b5-882f-78cfd94d57dd",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "vous avez",
+          "german": "ihr habt; Sie haben",
+          "example": "Vous avez un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "4d7a6aa9-72e3-5137-a89e-ec5bbf6ea7cb",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "ils ont",
+          "german": "sie haben (männlich/gemischt)",
+          "example": "Ils ont un portemonnaie.",
+          "imageUrl": null
+        },
+        {
+          "id": "1bc180e3-f1f3-50b8-9d4e-b1432e0b412e",
+          "listId": "a64e0977-321b-59f2-8a77-30029fdc5bed",
+          "french": "elles ont",
+          "german": "sie haben (weiblich)",
+          "example": "Elles ont un portemonnaie.",
           "imageUrl": null
         }
       ]
